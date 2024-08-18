@@ -628,7 +628,7 @@ transition: all 0.35 ease;
 }
 .project .project-heading
 {
-flex: 00 100%;
+flex: 0 0 100%;
 max-width: 100%;
 margin-bottom:40px ;
 }
@@ -668,7 +668,8 @@ font-weight: 500;
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: var(--bg-black-100);
+    /* background-color: #fff; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 350px; /* Set a fixed height for uniformity */
     width: 100%; /* Ensure full width for each item */
@@ -691,11 +692,13 @@ font-weight: 500;
 .project-info h3 {
     margin: 0;
     font-size: 1.4em;
+    color: var(--text-black-900);
 }
 
 .project-info p {
     margin-top: 5px;
-    color: #666;
+    /* color: #666; */
+    color: var(--text-black-900);
 }
 
     .project .project-item-inner .project-img img{
